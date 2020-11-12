@@ -1,0 +1,21 @@
+{
+    "name": "andreaspaech/hangman",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andreas Paech",
+            "email": "me@andreas-paech.de"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "twig/twig": "^3.0",
+        "doctrine/orm": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "NeueFische\\": "src/"
+        }
+    }
+}
